@@ -7,16 +7,19 @@ import One from './components/One'
 import Two from './components/Two'
 import Three from './components/Three'
 import Four from './components/Four';
+import Header from './components/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
 
-    <One />
+    {/* <One /> */}
     {/* <Two /> */}
     {/* <Three /> */}
     {/* <Four /> */}
+
+    <Header />
   </React.StrictMode>
 );
 
