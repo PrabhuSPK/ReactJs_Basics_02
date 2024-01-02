@@ -14,9 +14,9 @@ root.render(
     <App />
 
     <One />
-    <Two />
-    <Three />
-    <Four />
+    {/* <Two /> */}
+    {/* <Three /> */}
+    {/* <Four /> */}
   </React.StrictMode>
 );
 
