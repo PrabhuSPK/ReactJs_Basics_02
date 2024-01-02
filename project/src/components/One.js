@@ -16,6 +16,9 @@ function Name(){
     { name : "pinapple",location : "green" },
   ]
 
+  const numberList=[
+    1,2,2,3,4,5,6
+  ]
     return(
       <>
       <h1>i am one</h1>
@@ -29,7 +32,11 @@ function Name(){
       { office ? <p>Office is open</p> : <p>Office is closed</p>}
 
       <ul>
-        { fruitList.map((bio) => <li><Two bio={bio} /></li>) }
+        { fruitList.map((bio) => <li key={ bio.name }><Two bio={bio} /></li>) }
+      </ul>
+
+      <ul>
+        { numberList.map((n,index) => <li key={index}>{n}</li>) }
       </ul>
     </>
       )
