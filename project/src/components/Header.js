@@ -1,3 +1,6 @@
+import './Header.css'
+import styles from './Header.module.css'
+
 function Header(){
     const headingStyle={
         color : "red",
@@ -5,8 +8,10 @@ function Header(){
     }
     return(
         <>
-        <h1 style={{ color : "red" }}>this is my heading</h1>
-        <p style={headingStyle}>this is my paragraph</p>
+        <p style={{ color : "blue" }}> my heading inline css</p>
+        <h3 style={headingStyle}>my paragraph inline object styling</h3>
+        <h2 className={styles.classStyle}> my css stylesheet</h2>
+        
         </>
     )
 }
