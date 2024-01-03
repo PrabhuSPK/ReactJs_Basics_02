@@ -15,6 +15,17 @@ const[car,setCar] = useState(
         year : '2000'
     }
 )
+
+function changeColor(){
+
+    setCar(previousState => {
+        return{...previousState,color : 'Green'}
+    }
+    )
+}
+console.log(car)
+
+
     return(
         <>
         <h1>my car details</h1>
@@ -22,6 +33,7 @@ const[car,setCar] = useState(
         <p>Brand : {car.brand}</p>
         <p>Model : {car.model}</p>
         <p>Year : {car.year}</p>
+        <button type="button" onClick={changeColor}>Change Color</button>
         </>
     )
 }

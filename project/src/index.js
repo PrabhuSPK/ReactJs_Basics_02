@@ -14,7 +14,7 @@ import FunctuseStateCar from './components/FunctuseStateCar'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <>
     {/* <App /> */}
 
     {/* <One /> */}
@@ -26,7 +26,7 @@ root.render(
     {/* <FuntuseState /> */}
     {/* <ClassuseState /> */}
     <FunctuseStateCar />
-  </React.StrictMode>
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
