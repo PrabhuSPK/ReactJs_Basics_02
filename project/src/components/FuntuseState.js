@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function UseStatee(){
+function FuntuseState(){
 const [first,setSecond] = useState('Red')
 
     return(
@@ -12,4 +12,4 @@ const [first,setSecond] = useState('Red')
 }
 
 
-export default UseStatee;
+export default FuntuseState;

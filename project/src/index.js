@@ -8,7 +8,8 @@ import Two from './components/Two'
 import Three from './components/Three'
 import Four from './components/Four';
 import Header from './components/Header';
-import UseStatee from './components/UseStatee'
+import FuntuseState from './components/FuntuseState'
+import ClassuseState from './components/ClassuseState';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +22,8 @@ root.render(
     {/* <Four /> */}
     {/* <Header /> */}
 
-    <UseStatee />
+    <FuntuseState />
+    <ClassuseState />
   </React.StrictMode>
 );
 
