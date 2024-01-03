@@ -18,7 +18,7 @@ const[car,setCar] = useState(
 
 function changeColor(){
 
-    setCar(previousState => {
+    setCar((previousState) => {
         return{...previousState,color : 'Green'}
     }
     )
