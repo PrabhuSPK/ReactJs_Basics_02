@@ -10,6 +10,7 @@ import Four from './components/Four';
 import Header from './components/Header';
 import FuntuseState from './components/FuntuseState'
 import ClassuseState from './components/ClassuseState';
+import FunctuseStateCar from './components/FunctuseStateCar'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,8 +23,9 @@ root.render(
     {/* <Four /> */}
     {/* <Header /> */}
 
-    <FuntuseState />
-    <ClassuseState />
+    {/* <FuntuseState /> */}
+    {/* <ClassuseState /> */}
+    <FunctuseStateCar />
   </React.StrictMode>
 );
 
