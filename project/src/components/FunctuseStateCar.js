@@ -2,18 +2,26 @@ import { useState } from "react"
 
 function FunctuseStateCar(){
 
-const [color,setColor] = useState('Red')
-const [brand,setBrand] = useState('Honda')
-const [model,setModel] = useState('Activa')
-const [year,setYear] = useState('2000')
+// const [color,setColor] = useState('Red')
+// const [brand,setBrand] = useState('Honda')
+// const [model,setModel] = useState('Activa')
+// const [year,setYear] = useState('2000')
 
+const[car,setCar] = useState(
+    {
+        color : 'Red',
+        brand : 'Honda',
+        model : 'Activa',
+        year : '2000'
+    }
+)
     return(
         <>
         <h1>my car details</h1>
-        <p>Color : {color}</p>
-        <p>Brand : {brand}</p>
-        <p>Model : {model}</p>
-        <p>Year : {year}</p>
+        <p>Color : {car.color}</p>
+        <p>Brand : {car.brand}</p>
+        <p>Model : {car.model}</p>
+        <p>Year : {car.year}</p>
         </>
     )
 }
