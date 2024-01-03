@@ -8,7 +8,7 @@ function Two(props) {
           <span>i am {name} {location}</span>
         ) : null}
       </p>
-    );
+    )
   }
   
   
